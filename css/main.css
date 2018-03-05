@@ -1,0 +1,121 @@
+body {
+  color: #2d3c49;
+  font: 16px "Work Sans", sans-serif;
+  margin: 20px 0 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+h1,
+h4 {
+  margin: 0;
+}
+
+h2 {
+  border-bottom: solid 1px #7d97ad;
+  font-size: 30px;
+  line-height: 0px;
+  margin: 35px 0;
+  text-align: center;
+}
+
+h3 {
+  font-size: 23px;
+  margin: 3px;
+}
+
+hr {
+  background-color: #7d97ad;
+  border: none;
+  height: 1px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+p {
+  font-weight: 600;
+  margin: 5px;
+}
+
+
+/* Header */
+
+header {
+  display: flex;
+  margin: 0 20px;
+  text-align: right;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.name {
+  font-size: 55px;
+  margin-bottom: 0;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+
+/* Main */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.main-img {
+  max-height: 400px;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+/* Featured Work */
+
+.featured-work {
+   width: 100%;
+}
+
+.section-name {
+  background-color: #fff;
+  padding: 0 10px;
+}
+
+.list-box {
+  min-width: 250px;
+}
+
+.miniature {
+  height: 300px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.divider {
+  background: linear-gradient(to right, transparent, #7d97ad, #7d97ad, transparent);
+  height: 1px;
+  width: 100%;
+}
+
+.gitcode-logo {
+  width: 36px;
+  margin: 3px 5px;
+}
