@@ -1,7 +1,16 @@
+/*
+   Background: #fafafa
+   Borders: #7d97ad
+   Icons: #171516
+   Text: #2d3c49
+*/
+
+
 body {
   color: #2d3c49;
+  background-color: #fafafa;
   font: 16px "Work Sans", sans-serif;
-  margin: 20px 0 0;
+  margin: 0;
 }
 
 h1,
@@ -29,14 +38,6 @@ h3 {
   margin: 3px;
 }
 
-hr {
-  background-color: #7d97ad;
-  border: none;
-  height: 1px;
-  margin: 20px 0;
-  width: 100%;
-}
-
 ul {
   list-style-type: none;
   padding: 0;
@@ -51,25 +52,25 @@ p {
 /* Header */
 
 header {
+  border-bottom: solid 1px #7d97ad;
   display: flex;
-  margin: 0 20px;
+  margin-bottom: 20px;
+  padding: 20px;
   text-align: right;
 }
 
-.profile-picture {
+.author-pic {
   border-radius: 50%;
   margin-right: 20px;
 }
 
 .name {
   font-size: 55px;
-  margin-bottom: 0;
 }
 
 .description {
   font-size: 20px;
   font-weight: bold;
-  margin-top: 0;
 }
 
 
@@ -95,7 +96,7 @@ main {
 }
 
 .section-name {
-  background-color: #fff;
+  background-color: #fafafa;
   padding: 0 10px;
 }
 
@@ -116,6 +117,6 @@ main {
 }
 
 .gitcode-logo {
-  width: 36px;
   margin: 3px 5px;
+  width: 36px;
 }

@@ -3,7 +3,7 @@
     flex-direction: column;
     text-align: center;
   }
-  .profile-picture {
+  .author-pic {
     height: 80px;
     margin: 0 auto;
     width: 80px;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (min-width: 650px) {
-  .profile-picture {
+  .author-pic {
     float: left;
     height: 100px;
     width: 100px;
@@ -54,7 +54,6 @@
     max-width: 980px;
   }
   .list-box {
-    min-width: 300px;
     width: 32%;
   }
 }
